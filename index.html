@@ -3,104 +3,63 @@
 <head>
 	<title>Pawful Pets</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="pps.css">
-	<link rel="stylesheet" type="text/css" href="">
 </head>
+
+<!-- Main Body -->
 <body>
 
-	<!-- Nav Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Pawful Petsitting</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Escapees</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Locations
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">North Austin</a>
-          <a class="dropdown-item" href="#">South Austin</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Bee Cave, TX</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Pet Tracking</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search Pawful Petsitting" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+<!-- Bootstrap 4 Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-inverse bg-light">
+	<div class="container">
+	  <a class="navbar-brand" href="#">Pawful Petsitting | </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Escapees</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locations</a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">North Austin</a>
+	          <a class="dropdown-item" href="#">South Austin</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Bee Cave, TX</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link disabled" href="#">Pet Tracker</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search Pawful Petsitting" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+	  </div>
+	</div>
 </nav>
-
 
 <!-- Jumbotron -->
 	<div class="container">
 		<div class="jumbotron">
-  			<h1 class="display-4">Wanna Lose Your Pet for a Few Hours?!</h1>
+  			<h1 class="display-4"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>Wanna Lose Your Pet for a Few Hours?!</h1>
   			<p class="lead">Doggone Friendly Service!</p>
   			<hr class="my-4">
   			<p>What are you waiting fur?</p>
-  			<a class="btn btn-primary btn-lg" href="#" role="button">Reserve a Spot!</a>
+  			<a class="btn btn-primary btn-lg" href="#" role="button">Get Started!</a>
 		</div>
 	</div>
 
 
-<!-- Normal Form -->
-	<div class="container">
-		<form>
-		  <div class="form-group">
-		    <label for="exampleInputEmail1">Email address</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-		    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-		  </div>
-		  <div class="form-group">
-		    <label for="exampleInputPassword1">Password</label>
-		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-		  </div>
-		  <div class="form-group form-check">
-		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-		    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-		  </div>
-		  <button type="submit" class="btn btn-primary">Submit</button>
-		</form>
-	</div>
 
-<!-- Inline Form -->
-	<div class="container">
-		<form class="form-inline">
-		<label class="sr-only" for="inlineFormInputName2">Name</label>
-		<input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
 
-		<label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-		<div class="input-group mb-2 mr-sm-2">
-		<div class="input-group-prepend">
-		  <div class="input-group-text">@</div>
-		</div>
-		<input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
-		</div>
-
-		<div class="form-check mb-2 mr-sm-2">
-		<input class="form-check-input" type="checkbox" id="inlineFormCheck">
-		<label class="form-check-label" for="inlineFormCheck">
-		  Remember me
-		</label>
-		</div>
-
-		<button type="submit" class="btn btn-primary mb-2">Submit</button>
-		</form>
-	</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

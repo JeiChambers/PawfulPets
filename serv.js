@@ -7,7 +7,7 @@ const port = 3000;
 let fakeDB = [];
 
 app.use(bodyParser.json());
-app.get('/home', (req, res) => res.sendFile(path.join(__dirname + '/index.html')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname + '/index.html')));
 app.post('/api/users', (req, res) => {
 	fakeDB.push(req.body);
 	console.log(fakeDB);
