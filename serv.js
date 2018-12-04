@@ -7,7 +7,14 @@ const port = 3000;
 let fakeDB = [];
 
 app.use(bodyParser.json());
+
+// For serving actual site and css
 app.get('/', (req, res) => res.sendFile(path.join(__dirname + '/index.html')));
+app.get('/css/pps.css', function(req, res) {
+  res.sendFile(__dirname + "/" + "css/pps.css");
+});
+
+// Getting and Posting data from DB
 app.post('/api/users', (req, res) => {
 	fakeDB.push(req.body);
 	console.log(fakeDB);
