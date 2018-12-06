@@ -5,6 +5,7 @@
 .navbar-brand{
 	font-size: 30px;
 	font-family: 'Noto Sans', sans-serif;
+	color: white;
 }
 
 body{
@@ -19,3 +20,10 @@ body{
 	color: black;
 }
 
+p{
+	text-align: center;
+}
+
+.btn btn-primary btn-lg{
+	position: center;
+}
