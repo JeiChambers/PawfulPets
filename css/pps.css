@@ -8,22 +8,72 @@
 	color: white;
 }
 
+.btn-outline-success {
+    color: white;
+    background-color: #28a745;
+	border-color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: white;
+}
+
+#pettracker{
+	color: #ADABA5;
+}
+
+.jumbotron{
+	background-color: #DECCA9;
+	margin-top: 5%;
+}
+
+.display-4{
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+	color: white;
+	text-shadow: 2px 2px 0 black;
+	padding-bottom: 10%;
+	
+}
+
 body{
 	font-size: 20px;
 	background-color: white;
 	font-family: 'Noto Sans', sans-serif;
 }
 
-.display-4{
-	text-align: center;
-	font-family: 'Noto Sans', sans-serif;
-	color: black;
+.lead{
+	font-size: 40px;
+	font-weight: 300;
+	font-family: 'Gamja Flower', cursive;
+}
+
+}
+
+#catchphrase{
+	position: center;
+	margin-top: 15%;
+	font-family: 'Gamja Flower', cursive;
 }
 
 p{
 	text-align: center;
+	font-size: 40px;
+	font-family: 'Gamja Flower', cursive;
 }
 
-.btn btn-primary btn-lg{
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+	border-radius: .3rem;
 	position: center;
 }
+
+
+img {
+	vertical-align: middle;
+	margin-left: 30%
+
+}
+
