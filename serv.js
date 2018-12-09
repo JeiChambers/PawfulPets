@@ -10,9 +10,8 @@ app.use(bodyParser.json());
 
 // For serving actual site and css
 app.get('/', (req, res) => res.sendFile(path.join(__dirname + '/index.html')));
-app.get('/css/pps.css', function(req, res) {
-  res.sendFile(__dirname + "/" + "css/pps.css");
-});
+app.get('/css/pps.css', (req, res) => res.sendFile(path.join(__dirname + "/" + "css/pps.css")));
+app.get('/images/pupperlakec.png', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/pupperlakec.png")))
 
 // Getting and Posting data from DB
 app.post('/api/users', (req, res) => {
