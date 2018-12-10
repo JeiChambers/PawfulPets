@@ -12,6 +12,7 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => res.sendFile(path.join(__dirname + '/index.html')));
 app.get('/css/pps.css', (req, res) => res.sendFile(path.join(__dirname + "/" + "css/pps.css")));
 app.get('/images/pupperlakec.png', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/pupperlakec.png")))
+app.get('/', (req, res) => res.sendFile(path.join(__dirname + '/getstarted.html')));
 
 // Getting and Posting data from DB
 app.post('/api/users', (req, res) => {
