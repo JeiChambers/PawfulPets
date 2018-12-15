@@ -1,3 +1,33 @@
-.form-group{
+h1{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 48px;
+}
+
+#emailCell{
     margin-top: 10%;
+    width: 100%;
+    max-width: 500px;
+}
+
+#passCell{
+    width: 100%;
+    max-width: 500px;
+}
+input[type=checkbox], input[type=radio] {
+    margin-left: .25%;
+    padding-left: 20px;
+}
+
+.form-check-label {
+    margin-bottom: 2%;
+    padding-left: 30px;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-left: 1.5%;
 }
