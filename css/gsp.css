@@ -2,10 +2,21 @@ h1{
     margin-top: 5%;
     text-align: center;
     font-size: 48px;
+    color: #007bff;
+    text-shadow: 1px 1px 0 #000000;
+}
+
+#caForm {
+    max-width: 500px;
 }
 
 #emailCell{
     margin-top: 10%;
+    width: 100%;
+    max-width: 500px;
+}
+
+#userCell{
     width: 100%;
     max-width: 500px;
 }
@@ -29,5 +40,6 @@ input[type=checkbox], input[type=radio] {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
-    margin-left: 1.5%;
+    margin-left: 4%;
+    border: 1px solid #000000;
 }

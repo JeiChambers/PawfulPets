@@ -13,7 +13,7 @@
     </head>
     
     <!-- Main Body -->
-    <!-- Main Body -->
+
     <body>
         <!-- Bootstrap 4 Nav Bar -->
         <nav class="navbar navbar-expand-lg text-white bg-primary">
@@ -50,24 +50,33 @@
               </div>
             </div>
         </nav>
+
+
+        <!-- H1 -->
         <h1><strong>Create an Account!</strong></h1>
+
+        <!-- Registration Form -->
         <form>
-          <div class="container" id="caForm">
+          <div class="container col align-self-center" id="caForm">
             <div class="form-group col align-self-center" id="emailCell">
               <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email Address">
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group col align-self-center" id="userCell">
+              <label for="exampleInputUsername">Username</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Create a Username">
             </div>
             <div class="form-group col align-self-center" id="passCell">
               <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Create a Password">
               <small id="passwordHelp" class="form-text text-muted">Password must be at least 8 characters in length and contain letters, numbers, and special characters.</small>
             </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input " id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">I agree with the Terms of Service!</label>
+              <label class="form-check-label" for="exampleCheck1" href="#">I agree with Pawful Pets' Terms of Service!</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
           </div>
       </form>
         <!-- Copyright -->
