@@ -1,4 +1,4 @@
-h1{
+#title{
     margin-top: 5%;
     text-align: center;
     font-size: 48px;
@@ -25,13 +25,18 @@ h1{
     width: 100%;
     max-width: 500px;
 }
+
+#conPassCell{
+    margin-bottom: 4%;
+}
+
 input[type=checkbox], input[type=radio] {
     margin-left: .25%;
     padding-left: 20px;
 }
 
 .form-check-label {
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     padding-left: 30px;
 
 }
