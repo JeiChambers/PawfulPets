@@ -24,9 +24,9 @@ const catSchema = {
 
 const Cat = mongoose.model('Cat', catSchema)
 
-// const myCat = new Cat({name: "Tom", age: 5 })
-// myCat.save()
-// console.log(myCat)
+const myCat = new Cat({name: "Tom", age: 5 })
+myCat.save()
+console.log(myCat)
 
 app.use(bodyParser.json());
 
@@ -38,6 +38,7 @@ app.get('/getstarted', (req, res) => res.sendFile(path.join(__dirname + '/getsta
 app.get('/css/gsp.css', (req, res) => res.sendFile(path.join(__dirname + '/' + 'css/gsp.css')));
 app.get('/about', (req, res) => res.sendFile(path.join(__dirname + '/about.html')));
 app.get('/css/abt.css', (req, res) => res.sendFile(path.join(__dirname +'/' + 'css/abt.css')));
+app.get('/images/roscoprollins3.png', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/roscoprollins3.png")))
 
 // Getting and Posting data from DB
 app.post('/api/cats', (req, res) => {
