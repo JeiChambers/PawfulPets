@@ -39,6 +39,12 @@ app.get('/css/gsp.css', (req, res) => res.sendFile(path.join(__dirname + '/' + '
 app.get('/about', (req, res) => res.sendFile(path.join(__dirname + '/about.html')));
 app.get('/css/abt.css', (req, res) => res.sendFile(path.join(__dirname +'/' + 'css/abt.css')));
 app.get('/images/roscoprollins3.png', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/roscoprollins3.png")))
+app.get('/escapees', (req, res) => res.sendFile(path.join(__dirname + '/escapees.html')));
+app.get('/css/esc.css', (req, res) => res.sendFile(path.join(__dirname +'/' + 'css/esc.css')));
+app.get('/images/chameleon.jpg', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/chameleon.jpg")))
+app.get('/images/stowaway.jpg', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/stowaway.jpg")))
+app.get('/images/stowaway2.jpg', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/stowaway2.jpg")))
+app.get('/images/professor.jpg', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/professor.jpg")))
 
 // Getting and Posting data from DB
 app.post('/api/cats', (req, res) => {

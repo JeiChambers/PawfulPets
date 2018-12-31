@@ -1,4 +1,8 @@
-#title{
+body{
+    background-image: linear-gradient( rgb(228, 205, 161), rgb(77, 62, 34));
+}
+
+h1{
     margin-top: 5%;
     text-align: center;
     font-size: 48px;

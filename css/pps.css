@@ -1,7 +1,11 @@
 body{
 	font-size: 20px;
-	background-color: white;
 	font-family: 'Noto Sans', sans-serif;
+	background-image: linear-gradient( rgb(228, 205, 161), rgb(77, 62, 34));
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-bottom: 0%;
+	height: 893px;
 }
 .bg-light {
     background: #007bff;
@@ -36,9 +40,9 @@ body{
 }
 
 .jumbotron{
-	background-image: linear-gradient( rgb(228, 205, 161), rgb(77, 62, 34)) ;
+	background-image: radial-gradient( rgb(230, 229, 228), rgb(182, 144, 88)) ;
 	margin-top: 5%;
-	border: 1px solid #007bff;
+	border: 1px solid #ffffff;
 }
 
 .display-4{
@@ -97,13 +101,14 @@ img{
     vertical-align: middle;
 	margin-left: auto;
 	width: 100%;
-	border: 1px solid #ffffff;
+	border: 1px solid #007bff;
 	max-height: 525px;
 }
 
 .footer{
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 0%;
 	text-align: center;
 	background-color: #007bff
 }

@@ -1,7 +1,7 @@
 
 body{
     background-image: url(/images/roscoprollins3.png), linear-gradient(to right, #ece1cb, rgba(184, 147, 79, 0.918));
-    background-size: 40%, 100%;
+    background-size: 35%, 100%;
     height: 400px, 400px;
     background-repeat: no-repeat, no-repeat;
     background-position: cover, cover;
@@ -9,20 +9,24 @@ body{
 
 h1{
     margin-top: 5%;
-    margin-left: 23%;
-    font-size: 59px;
-    color: #007bff;
-    text-shadow: 2px 2px 0 #000000;
+    margin-left: 25%;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 0 #007bff;
 }
 
 
 
-.story{
+#story{
     color: white;
-    margin-top: 7%;
-    padding: 3%;
+    font-size: 28px;
+    margin-left: 45%;
+    margin-top: 3%;
+    margin-right: 10%;
+    padding: 4%;
     background-color: #007bff;
     border: black 4px double;
-    max-width: 600px;
+    max-width: 1100px;
+    max-height: 600px;
 }
 

@@ -1,0 +1,35 @@
+body{
+    background-image:linear-gradient( rgb(228, 205, 161), rgb(77, 62, 34));
+}
+
+.jumbotron{
+	background-image:radial-gradient( rgb(230, 229, 228), rgb(182, 144, 88));
+	margin-top: 3%;
+	border: 1px solid #007bff;
+}
+
+.display-4{
+    text-align: right;
+    padding: 0%;
+}
+
+p{
+	font-size: 35px;
+	font-family: 'Gamja Flower', cursive;
+	color:white;
+	text-shadow: 2px 2px 0 #007bff;
+}
+
+.img-thumbnail{
+    height: 300px;
+    position: fill;
+    margin-top: 3%;
+}
+
+.caption{
+    text-align: center;
+    text-shadow: 1px 1px 0 #000000;
+    color: #007bff;
+    margin-top: 4%;
+    font-size: 18px;
+}
