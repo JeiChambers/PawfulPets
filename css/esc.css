@@ -1,5 +1,8 @@
 body{
     background-image:linear-gradient( rgb(228, 205, 161), rgb(77, 62, 34));
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1200px;
 }
 
 .jumbotron{
@@ -29,7 +32,7 @@ p{
 .caption{
     text-align: center;
     text-shadow: 1px 1px 0 #000000;
-    color: #007bff;
+    color: #ffffff;
     margin-top: 4%;
     font-size: 18px;
 }

@@ -45,6 +45,10 @@ app.get('/images/chameleon.jpg', (req,res) => res.sendFile(path.join(__dirname +
 app.get('/images/stowaway.jpg', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/stowaway.jpg")))
 app.get('/images/stowaway2.jpg', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/stowaway2.jpg")))
 app.get('/images/professor.jpg', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/professor.jpg")))
+app.get('/images/veteran.jpg', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/veteran.jpg")))
+app.get('/images/bully.jpg', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/bully.jpg")))
+app.get('/images/hops.jpg', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/hops.jpg")))
+app.get('/images/hitchhiker.png', (req,res) => res.sendFile(path.join(__dirname + "/" + "images/hitchhiker.png")))
 
 // Getting and Posting data from DB
 app.post('/api/cats', (req, res) => {
