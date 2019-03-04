@@ -1,12 +1,13 @@
 body{
 	font-size: 20px;
 	font-family: 'Noto Sans', sans-serif;
-	background-image: linear-gradient( rgb(228, 205, 161), rgb(77, 62, 34));
+	background-image: #ffffff;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin-bottom: 0%;
 	height: 910px;
 }
+
 .bg-light {
     background: #007bff;
 }
@@ -40,15 +41,15 @@ body{
 }
 
 .jumbotron{
-	background-image: radial-gradient( rgb(230, 229, 228), rgb(182, 144, 88)) ;
+	background-image: radial-gradient( rgb(230, 229, 228), rgb(182, 144, 88));;
 	margin-top: 5%;
-	border: 1px solid #ffffff;
+	border: 1px solid #382303;
 }
 
 .display-4{
 	text-align: center;
-	font-family: 'Architects Daughter', cursive;
-	color: white;
+	font-family: 'Gamja Flower', cursive;
+	color: #007bff;
 	text-shadow: 2px 2px 0 black;
 	padding-bottom: 10%;
 }
@@ -58,7 +59,7 @@ body{
 	font-size: 40px;
 	font-weight: 300;
 	font-family: 'Gamja Flower', cursive;
-	text-shadow: 1px 1px 0 white;
+	text-shadow: 1px 1px 0 #007bff;
 	padding-left: 30px;
 }
 
@@ -74,7 +75,7 @@ body{
 .horule{
 	border: 0;
 	height: 0; /* Firefox... */
-	box-shadow: 0 0 10px 1px black;
+	box-shadow: 0 0 10px 1px #007bff;
 }
 
 #catchphrase{
@@ -83,7 +84,7 @@ body{
 	padding-left: 110px;
 	font-size: 35px;
 	font-family: 'Gamja Flower', cursive;
-	color:white;
+	color:#000000;
 	text-shadow: 2px 2px 0 #007bff;
 }
 

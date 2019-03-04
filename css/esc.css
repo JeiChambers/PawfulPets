@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient( rgb(228, 205, 161), rgb(77, 62, 34));
+    background-color:#ffffff;
     background-size: 100%;
     background-repeat: no-repeat;
     height: 1200px;
@@ -14,12 +14,14 @@ body{
 .display-4{
     text-align: right;
     padding: 0%;
+    color: white;
+    text-shadow: #000000 2px 2px;
 }
 
 p{
 	font-size: 35px;
 	font-family: 'Gamja Flower', cursive;
-	color:white;
+	color:#ffffff;
 	text-shadow: 2px 2px 0 #007bff;
 }
 
@@ -27,12 +29,17 @@ p{
     height: 300px;
     position: fill;
     margin-top: 3%;
+    border-color: #007bff;
 }
 
 .caption{
     text-align: center;
     text-shadow: 1px 1px 0 #000000;
-    color: #ffffff;
+    color: #007bff;
     margin-top: 4%;
     font-size: 18px;
+}
+
+.fas {
+    color: #ffffff;
 }

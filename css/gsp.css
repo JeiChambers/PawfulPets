@@ -7,7 +7,7 @@ h1{
     text-align: center;
     font-size: 48px;
     color: #007bff;
-    text-shadow: 1px 1px 0 #000000;
+    text-shadow: 2px 2px 0 #ffffff;
 }
 
 #caForm {
@@ -46,9 +46,19 @@ input[type=checkbox], input[type=radio] {
 }
 
 .btn-primary {
-    color: #fff;
+    color: #ffffff;
     background-color: #007bff;
     border-color: #007bff;
     margin-left: 4%;
     border: 1px solid #000000;
+}
+
+.gsp-labels {
+    text-shadow: #000000 1px 1px;
+    color: #007bff
+}
+
+.form-text {
+    color: #000000;
+    font-size: 14px;
 }
