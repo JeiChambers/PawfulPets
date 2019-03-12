@@ -1,29 +1,50 @@
 
-body{
-    background-image: url(/images/roscoprollins3.png), linear-gradient(to right, #ece1cb, rgba(184, 147, 79, 0.918));
-    background-size: 35%, 100%;
-    background-repeat: no-repeat, no-repeat;
-    background-position: cover, cover;
+
+@media (min-width: 1199.98px) {
+
+    body{
+        background-image: url("/images/roscoprollins3.png");
+        background-size: 38%;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+
+    .story{
+        color: white;
+        font-size: 22px;
+        padding: 4%;
+        background-color: #007bff;
+        border: black 4px double;
+        margin-top: 6%;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    body{
+        background-image: url("/images/roscoprollins3.png");
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+
+    .story{
+        color: white;
+        font-size: 24px;
+        padding: 4%;
+        background-color: #007bff;
+        border: black 4px double;
+        margin-top: 6%;
+    }
 }
 
 h1{
-    margin-top: 5%;
-    margin-left: 25%;
+    margin-top: 3%;
     font-size: 65px;
-    color: #FFFFFF;
-    text-shadow: 3px 3px 0 #007bff;
+    color: #007bff;
+    text-shadow: 3px 3px 0 #1a1818;
+    margin-bottom: 3%;
 }
 
-#story{
-    color: white;
-    font-size: 26px;
-    margin-left: 45%;
-    margin-top: 3%;
-    margin-right: 5%;
-    padding: 3%;
-    background-color: #007bff;
-    border: black 4px double;
-    max-width: 800px;
-    max-height: 600px;
-}
+
 
