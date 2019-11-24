@@ -29,5 +29,5 @@ app.get('/images/bully.jpg', (req,res) => res.sendFile(path.join(__dirname + '/'
 app.get('/images/hops.jpg', (req,res) => res.sendFile(path.join(__dirname + '/' + "images/hops.jpg")))
 app.get('/images/hitchhiker.png', (req,res) => res.sendFile(path.join(__dirname + '/' + "images/hitchhiker.png")))
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`Pawful Petsitting listening on port ${port}!`));
 
